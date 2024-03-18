@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vue/compiler-dom": "^3.4.21",
+    "@vue/compiler-sfc": "^3.4.21",
     "chokidar": "^3.5.3",
     "koa": "^2.14.2",
     "url": "^0.11.3",
