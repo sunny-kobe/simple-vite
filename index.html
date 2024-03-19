@@ -9,8 +9,27 @@
 
 <body>
   <div id="app"></div>
-  <div>nihao</div>
 
+  <!-- <script>
+    const socket = new WebSocket("ws://localhost:8080");
+
+    socket.addEventListener("open", function (event) {
+      socket.send("Hello Server!");
+    });
+
+    socket.addEventListener("message", function (event) {
+      console.log("Message from server ", event.data);
+      window.location.reload() // 接收到后端的推送后直接刷新页面
+    });
+
+
+    window.process = {
+      env: {
+        NODE_ENV: 'dev'
+      }
+    }
+
+  </script> -->
   <script type="module" src="/src/main.js"></script>
 </body>
 
